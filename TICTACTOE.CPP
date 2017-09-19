@@ -154,7 +154,7 @@ void MAIN_MENU :: recent_winners()
 		{
 			clrscr();
 			cout << "\n\t\t\t Currently there are no Recent Winners to be"
-				 << "displayed… \n \n \n";
+				 << "displayedâ€¦ \n \n \n";
 			getch();
 			m.recent_winners();
 		}
@@ -291,7 +291,7 @@ void PLAYER :: PROFILE()
 			filout.open("profiles.txt", ios::trunc);      // Resets the Profile.
 			filout.clear();
 			filout.close();
-			cout << "\n\t\t\t Profiles Reseted…";
+			cout << "\n\t\t\t Profiles Resetedâ€¦";
 			getch();
 			p3.PROFILE();
 		}
@@ -524,7 +524,7 @@ int GAME :: PatternCheck()
 		return -1;
 
 	else
-return 0;
+		return 0;
 }
 
 int main()
